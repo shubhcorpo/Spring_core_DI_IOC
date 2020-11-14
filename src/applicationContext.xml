@@ -13,7 +13,7 @@
     <bean id="myFortune" class="com.shubham.springdemo.HappyFortuneService"></bean>
     
     
-    <bean id="myCoach"  class="com.shubham.springdemo.BaseballCoach"><constructor-arg ref="myFortune"/> </bean>
+    <bean id="myCoach"  class="com.shubham.springdemo.TrackCoach"><constructor-arg ref="myFortune"/> </bean>
     
     
 </beans>
